@@ -1,4 +1,5 @@
 ﻿using System;
+using WebsideSOLID;
 
 namespace WebssiteSOLID2
 {
@@ -6,7 +7,8 @@ namespace WebssiteSOLID2
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            ResponsMng response = new ResponsMng();
+            response.webrequest();
         }
     }
 }
